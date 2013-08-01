@@ -10,7 +10,7 @@
 	<parent>
 		<groupId>com.jeremyfeinstein.slidingmenu</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.2-abs</version>
+		<version>1.2.1-abs</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -24,6 +24,11 @@
             <groupId>com.google.android.maps</groupId>
             <artifactId>maps</artifactId>
         </dependency>
+	<dependency>
+	   <groupId>android</groupId>
+	   <artifactId>android</artifactId>
+	   <scope>provided</scope>
+	</dependency>
 	</dependencies>
 
 	<build>
